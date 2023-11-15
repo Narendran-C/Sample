@@ -8,7 +8,6 @@ def has_duplicate_letters(sentence):
             if char in seen:
                 return True
             seen.add(char)
-
     return False
 
 
