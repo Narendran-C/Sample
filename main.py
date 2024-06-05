@@ -18,7 +18,7 @@ def has_duplicate_letters(sentence):
 
 add_fun = add
 sentence1 = "This is the third change"
-sentence2 = "Hello change 3 "
+sentence2 = "Hello change 4 "
 print(has_duplicate_letters(sentence1))
 print(has_duplicate_letters(sentence2))
 print(add_fun(2, 5, 8, 5, 6))
