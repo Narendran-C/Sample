@@ -1,5 +1,5 @@
 """
-In this case, the base class of a derived class itself a derived class of a Base class - Multi Level Inheritance
+In this case, the base class of a derived class itself a derived class of a Base class - Multiple Level Inheritance
 
           Grandpa Class
                  \
