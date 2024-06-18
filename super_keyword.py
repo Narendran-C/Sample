@@ -1,5 +1,6 @@
 class A:
     def __init__(self):
+        super().__init__()
         print("Class A Constructor")
 
     def display(self):
@@ -15,7 +16,7 @@ class A1():
         print("You are in Class A1")
 
 
-class B(A1, A):
+class B(A, A1):
     def __init__(self):
         super().__init__()
         print("Class B Constructor")
